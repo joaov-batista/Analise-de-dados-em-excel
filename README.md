@@ -16,6 +16,10 @@ Este projeto foi desenvolvido em Python como uma iniciativa para praticar e apri
 
 ## Como Rodar o Projeto
 
+### Baixe o arquivo CSV aqui:
+````
+https://drive.google.com/drive/folders/1UYo9HvVkk3UT1VkNzTkK0uxTRd4gJ7AV?usp=sharing´´
+````
 ### Pré-requisitos
 Certifique-se de ter o **Python** instalado em sua máquina. Em seguida, instale as dependências necessárias com o seguinte comando:
 
@@ -34,7 +38,7 @@ streamlit run app.py
 
 ```
 /
-├── app.py              # Código principal que roda a aplicação Streamlit
+├── viagens.py              # Código principal que roda a aplicação Streamlit
 ├── 2024_Viagem.csv     # Dataset de exemplo com informações sobre as viagens dos servidores públicos
 ├── requirements.txt    # Arquivo com as dependências necessárias para rodar o projeto
 ```
@@ -45,7 +49,7 @@ https://youtu.be/LOPacISyt-I
 ```
 
 ## Observações
-- O arquivo **2024_Viagem.csv** deve estar na mesma pasta que o **.py** ou ser especificado corretamente no código.
+- O arquivo **2024_Viagem.csv** deve estar na mesma pasta que o **viagens.py** ou ser especificado corretamente no código.
 - Certifique-se de que as colunas e os dados estejam no formato esperado para garantir que a aplicação funcione corretamente.
 
 ---
